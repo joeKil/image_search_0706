@@ -2,6 +2,8 @@ import 'package:image_search_0706/data/api/pixabay_api.dart';
 import 'package:image_search_0706/data/mapper/photo_mapper.dart';
 import 'package:image_search_0706/data/repository/photo_repository.dart';
 
+import '../model/photo.dart';
+
 class PixabayPhotoRepositoryImple implements PhotoRepository {
   final _api = PixabayApi();
 
